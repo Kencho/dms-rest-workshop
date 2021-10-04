@@ -1,6 +1,6 @@
-# Taller de frontend
+# Taller de APIs REST
 
-Código fuente de partida para el taller de frontend de la asignatura de Diseño y Mantenimiento del Software (Universidad de Burgos, Grado en Ingeniería Informática)
+Código fuente de partida para el taller de APIs REST de la asignatura de Diseño y Mantenimiento del Software (Universidad de Burgos, Grado en Ingeniería Informática)
 
 Seguir las instrucciones de la guía del taller disponible en el campus virtual.
 
