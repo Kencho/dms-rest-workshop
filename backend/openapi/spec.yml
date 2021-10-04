@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: DMS - Taller de APIs REST con OpenAPI
+  version: '1.0'
+  description: API REST de ejemplo para el taller de OpenAPI con Connexion en la asignatura Diseño y Mantenimiento del Software - Grado en Ingeniería Informática de la Universidad de Burgos.
+servers:
+  - url: /api/v1
+paths:
+  /helloworld:
+    get:
+      summary: Devuelve el mensaje clásico
+      operationId: rest.controllers.tutor.get_helloworld
+      responses:
+        '200':
+          description: Mensaje "¡Hola, Mundo!"
+          content:
+            'text/plain':
+              schema:
+                type: string
+                example: '¡Hola, Mundo!'
+      tags:
+        - tutor
