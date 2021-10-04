@@ -20,6 +20,8 @@ Después de cada cambio, pese a que a menudo se detectarán y recargará automá
 
 Para arrancarlo, desde la ruta del backend en el proyecto:
 
+```bash
 FLASK_APP=app.py flask run
+```
 
 Una vez arrancado, como se indica en las instrucciones que muestra en la salida, puede pararse pulsando Ctrl+C.
