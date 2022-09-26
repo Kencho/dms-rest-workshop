@@ -2,7 +2,10 @@ openapi: 3.0.0
 info:
   title: DMS - Taller de APIs REST con OpenAPI
   version: '1.0'
-  description: API REST de ejemplo para el taller de OpenAPI con Connexion en la asignatura Diseño y Mantenimiento del Software - Grado en Ingeniería Informática de la Universidad de Burgos.
+  description: |
+    API REST de ejemplo para el taller de OpenAPI con Connexion
+    en la asignatura Diseño y Mantenimiento del Software -
+    Grado en Ingeniería Informática de la Universidad de Burgos.
 servers:
   - url: /api/v1
 paths:
